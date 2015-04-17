@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===================== -->
+    <!--  layout && icon name stings -->
+    <!-- ===================== -->
+    <string name="app_name">Cambodian Law</string>
+    <string name="action_settings">Settings</string>
+    <string name="Homepage">Homepage</string>
+    <string name="Call">Call</string>
+    <string name="Law">Law of Cambodia</string>
+    <string name="Website">Senate Homepage</string>
+    <string name="Senate">About Senate</string>
+    <string name="Contact">Contact</string>
+    <string name="Manual">Manual</string>
+    <string name="Email">Email</string>
+    <string name="Result">Search Results</string>
+    
+    <!-- ================ -->
+    <!--  About Senate strings -->
+    <!-- ================ -->
+    <string name="first">The Senate  is the upper house of the Parliament of Cambodia.</string>
+    <string name="second">According to the Constitution of the Kingdom of Cambodia,</string>
+    <string name="secondd">Article 99-New</string>
+    <string name="fourth">The Senate is a body that has legislative power and performs its duties as determined in the constitution and law in force. The Senate consists of members whose number shall not exceed half of the members of the National Assembly.</string>
+    <string name="fifth">Article 100-New</string>
+    <string name="sixth">The King shall appointed two Senators. The National Assembly shall elect two Senators by majority vote. Other Senators shall be elected through a non-universal election.</string>
+    <string name="seventh">Article 110-new</string>
+    <string name="eighth">The President of the Senate shall chair the Senate, sessions, receive draft bills and resolutions approved by the Senate, ensure the implementation of the Internal Regulation and organise the international relations of the Senate.</string>
+    <string name="nineth">Cambodia’s first Senate Election was held on January 22, 2006. The election was non-universal in nature because only commune councilors and members of the National Assembly were allowed to participate, voting on behalf of their constituents.</string>
+    
+    <!-- ============ -->
+    <!--  Contact strings  -->
+    <!-- ============ -->
+    <string name="address">Vimeanrath Chamcar Mon, Preah Norodom Boulevard, Phnom Penh, Cambodia.</string>
+    <string name="mailaddress">lyratha@gmail.com</string>
+    
+    <!-- ====== -->
+    <!--  colors  -->
+    <!-- ====== -->
+    <color name="yellow">#fbffbc</color>
+    <color name="brown">#8b460f</color>
+    <color name="orange">#fe8a01</color>
+    <color name="grey">#dcdcdc</color>
+    <color name="white">#ffffff</color>
+
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/up"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="13dip"
+            android:layout_marginTop="10dip"
+            android:background="@color/brown"
+            android:scaleType="center"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="13dip"
+            android:text="@string/Contact"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dip"
+            android:layout_weight="55"
+            android:gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/senatelogo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="91dp"
+            android:layout_weight="15"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/call"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="15dip"
+                android:background="@drawable/call" />
+
+            <RadioGroup
+                android:id="@+id/numbergroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/check1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="023-211-441" />
+
+                <RadioButton
+                    android:id="@+id/check2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="023-211-442" />
+
+                <RadioButton
+                    android:id="@+id/check3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="023-211-443" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/map"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/home2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/map"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="10dip"
+                android:layout_toRightOf="@id/map"
+                android:text="@string/address"
+                android:textSize="10pt" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/email"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/email" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/email"
+                android:layout_marginLeft="20dip"
+                android:layout_toRightOf="@id/email"
+                android:gravity="center"
+                android:text="@string/mailaddress"
+                android:textSize="10pt" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ugot.law.expan.MainActivity" 
+    android:background="@color/yellow"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/up">
+        
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="13dip"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dip"
+            android:scaleType="center"
+            android:background="@color/brown"
+            android:src="@drawable/home"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="13dip"
+            android:text="Law of Cambodia"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        
+        
+    </RelativeLayout>
+    
+<LinearLayout 
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@color/yellow"
+  >
+   <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"/>
+   
+  
+    
+    
+</LinearLayout>
+    
+
+</LinearLayout>
